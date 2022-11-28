@@ -1,0 +1,17 @@
+.nav-list {
+  display: flex;
+  justify-content: end;
+  column-gap: 90px;
+}
+
+.nav-link {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #2D2D2D;
+  transition: all 0.15s ease;
+
+  &:hover {
+    color: #094BAD;
+  }
+}

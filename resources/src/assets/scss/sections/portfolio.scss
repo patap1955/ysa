@@ -1,0 +1,18 @@
+#portfolio {
+  margin-top: 70px;
+}
+
+.portfolio {
+  &__title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2D2D2D;
+  }
+}
+
+.portfolioSwiper {
+  margin-top: 40px;
+}

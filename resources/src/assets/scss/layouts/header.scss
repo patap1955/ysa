@@ -1,0 +1,49 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+
+  &__logo {}
+
+  &__right {
+
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 50px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #2D2D2D;
+
+    &-email {
+      a {
+        color: #2D2D2D;
+        transition: all 0.15s ease;
+
+        &:hover {
+          color: #094BAD;
+        }
+      }
+    }
+
+    &-address {
+      &-work {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        color: #8B8B8B;
+      }
+    }
+  }
+
+  &__nav {
+    margin-top: 20px;
+  }
+}

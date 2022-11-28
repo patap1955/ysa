@@ -1,0 +1,65 @@
+.first-screen {
+  background: url("/assets/img/first-screen-bg.png") 100% 100% no-repeat;
+  background-size: cover;
+  padding-bottom: 95px;
+}
+
+.utp {
+  padding: 48px 30px 30px 30px;
+  display: flex;
+  flex-direction: column;
+  max-width: 630px;
+  background-color: #fff;
+  backdrop-filter: blur(15px);
+  border-radius: 0px 0px 15px 15px;
+
+  &__title {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #2D2D2D;
+  }
+
+  &__text {
+    width: 465px;
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #2D2D2D;
+  }
+
+  &__button {
+    margin-top: 30px;
+  }
+
+  &__footer {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+
+    &-item {
+      &:not(:last-child) {
+        border-right: 1px solid #2D2D2D;
+        padding-right: 30px;
+      }
+
+      &-title {
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 44px;
+        color: #2D2D2D;
+      }
+
+      &-text {
+        margin-top: 10px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #2D2D2D;
+      }
+    }
+  }
+}

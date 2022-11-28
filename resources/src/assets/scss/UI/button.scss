@@ -1,0 +1,29 @@
+.btn {
+  padding: 15px 30px;
+}
+
+.btn-base {
+  padding: 15px 30px;
+  border: 2px solid #094BAD;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #094BAD;
+  transition: all 0.15s ease;
+
+  &:hover {
+    background: #094BAD;
+    color: #ffffff;
+  }
+}
+
+.btn-primary {
+  background: #094BAD;
+  border-radius: 5px;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
