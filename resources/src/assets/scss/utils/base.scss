@@ -39,36 +39,15 @@ a {
     text-decoration: none;
 }
 
-.container {
+.containers {
     position: relative;
     max-width: 1170px;
     min-width: 200px;
     margin: 0 auto;
 
-    @media (min-width: 992px)
-    {
-        max-width: 100%;
-        padding-left: 20px;
+    @media (max-width: 1200px) {
         padding-right: 20px;
-    }
-
-    @media (min-width: 768px)
-    {
-        max-width: 100%;
         padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    @media (min-width: 576px)
-    {
-        max-width: 100%;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
-    @media (max-width: 480px) {
-        padding-left: 15px;
-        padding-right: 15px;
     }
 }
 

@@ -23,14 +23,13 @@ if (document.querySelector(".portfolioSwiper")) {
             300: {
                 slidesPerView: 1,
             },
-            361: {
+            480: {
+                slidesPerView: 1.3,
+            },
+            768: {
                 slidesPerView: 1.5,
             },
-            // when window width is >= 480px
-            481: {
-                slidesPerView: 1.5,
-            },
-            1024: {
+            1000: {
                 slidesPerView: 2,
             },
         },

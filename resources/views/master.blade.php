@@ -13,7 +13,7 @@
     </head>
     <body>
         <header id="header">
-            <div class="container header">
+            <div class="containers header">
                 <div class="header__logo">
                     <a href="/">
                         <img src="{{ asset('assets/img/logo.svg') }}">
@@ -71,7 +71,7 @@
                 <img src="{{ asset('assets/img/first-screen-bg.png') }}">
             </div>
             <div class="first-screen">
-                <div class="container">
+                <div class="containers">
                     <div class="utp">
                         <h1 class="utp__title">Промышленное и гражданское строительство</h1>
                         <p class="utp__text">ООО «ЮСА» предоставляет профессиональные услуги полного цикла по строительству промышленных и гражданских объектов.</p>
@@ -98,31 +98,49 @@
             </div>
         </div>
 
-        <div id="about-as">
-            <div class="container about-as">
-                <div class="about-as__left">
-                    <div class="about-as__left-img">
-                        <img src="{{ asset('assets/img/about-as-1.png') }}" />
-                    </div>
-                    <div class="about-as__left-info">
-                        <h2 class="about-as__left-info-title">О компании</h2>
-                        <p class="about-as__left-info-text">ООО «ЮГ СТРОЙ АЛЬЯНС» обеспечивает полный комплекс работ по строительству более 10 лет. Основное направление деятельности является строительство промышленных и гражданских объектов, проектирование.</p>
-                    </div>
+        <section id="about-as">
+            <div class="containers about-as">
+                <div class="about-as__img-left">
+                    <img src="{{ asset('assets/img/about-as-1.png') }}" />
                 </div>
-                <div class="about-as__right">
-                    <div class="about-as__right-info">
-                        <p class="about-as__right-info-text">Высококвалифицированные бригады и специалисты компании позволяют нам предоставлять профессиональные услуги полного цикла по строительству промышленных и гражданских объектов. Мы выполняем все необходимые работы, начиная от проектированием и разработкой и заканчивая монтажом, пусконаладкой и автоматизацией технологических процессов.</p>
-                    </div>
-                    <div class="about-as__right-img">
-                        <img src="{{ asset('assets/img/about-as-2.png') }}" />
-                    </div>
+                <div class="about-as__right-text">
+                    <h2 class="about-as__title">О компании</h2>
+                    <p class="about-as__text">ООО «ЮГ СТРОЙ АЛЬЯНС» обеспечивает полный комплекс работ по строительству более 10 лет. Основное направление деятельности является строительство промышленных и гражданских объектов, проектирование.</p>
+                </div>
+                <div class="about-as__left-text">
+                    <p class="about-as__text">Высококвалифицированные бригады и специалисты компании позволяют нам предоставлять профессиональные услуги полного цикла по строительству промышленных и гражданских объектов. Мы выполняем все необходимые работы, начиная от проектированием и разработкой и заканчивая монтажом, пусконаладкой и автоматизацией технологических процессов.</p>
+                </div>
+                <div class="about-as__img-right">
+                    <img src="{{ asset('assets/img/about-as-2.png') }}" />
                 </div>
             </div>
-        </div>
+        </section>
+
+{{--        <div id="about-as">--}}
+{{--            <div class="container about-as">--}}
+{{--                <div class="about-as__left">--}}
+{{--                    <div class="about-as__left-img">--}}
+{{--                        <img src="{{ asset('assets/img/about-as-1.png') }}" />--}}
+{{--                    </div>--}}
+{{--                    <div class="about-as__left-info">--}}
+{{--                        <h2 class="about-as__left-info-title">О компании</h2>--}}
+{{--                        <p class="about-as__left-info-text">ООО «ЮГ СТРОЙ АЛЬЯНС» обеспечивает полный комплекс работ по строительству более 10 лет. Основное направление деятельности является строительство промышленных и гражданских объектов, проектирование.</p>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="about-as__right">--}}
+{{--                    <div class="about-as__right-info">--}}
+{{--                        <p class="about-as__right-info-text">Высококвалифицированные бригады и специалисты компании позволяют нам предоставлять профессиональные услуги полного цикла по строительству промышленных и гражданских объектов. Мы выполняем все необходимые работы, начиная от проектированием и разработкой и заканчивая монтажом, пусконаладкой и автоматизацией технологических процессов.</p>--}}
+{{--                    </div>--}}
+{{--                    <div class="about-as__right-img">--}}
+{{--                        <img src="{{ asset('assets/img/about-as-2.png') }}" />--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
 
         <div id="services">
             <img class="poligon1" src="{{ asset('assets/img/poligon-1.svg') }}">
-            <div class="container services">
+            <div class="containers services">
                 <h2 class="services__title">Услуги</h2>
                 <div class="services__list">
                     <div class="services__item">
@@ -220,7 +238,7 @@
         </div>
 
         <div id="portfolio">
-            <div class="container portfolio">
+            <div class="containers portfolio">
                 <h2 class="portfolio__title">Наши работы</h2>
                 <div class="portfolioSwiper">
                     <div class="swiper-wrapper">
@@ -298,7 +316,7 @@
         <div id="contacts">
             <div class="contacts-fon">
                 <div class="container-fluid">
-                    <div class="container contacts-form">
+                    <div class="containers contacts-form">
                         <h2 class="contacts-form__title">Заказать обратный звонок</h2>
                         <p class="contacts-form__text">Если у вас остались вопросы, оставьте контактные данные и мы обязательно позвоним</p>
                         <form>
@@ -312,7 +330,7 @@
                                 <textarea class="form-control contacts-form__input contacts-form__textarea" id="inpunContactsText" name="text" placeholder="Опишите вопрос или предложение"></textarea>
                             </div>
                             <div class="form-group">
-                                <button type="submit" id="buttonContacts" class="btn btn-primary">Заказать звонок</button>
+                                <button type="submit" id="buttonContacts" class="btn btn-primary button-contacts">Заказать звонок</button>
                             </div>
                         </form>
                     </div>
