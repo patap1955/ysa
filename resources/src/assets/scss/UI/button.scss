@@ -13,6 +13,10 @@
   color: #094BAD;
   transition: all 0.15s ease;
 
+    @media (max-width: 360px) {
+        font-size: 18px;
+    }
+
   &:hover {
     background: #094BAD;
     color: #ffffff;
@@ -27,4 +31,8 @@
   line-height: 25px;
   text-transform: uppercase;
   color: #FFFFFF;
+
+    @media (max-width: 360px) {
+        font-size: 18px;
+    }
 }

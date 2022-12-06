@@ -1,7 +1,35 @@
+#first-screen {
+    position: relative;
+    height: 640px;
+
+    @media (max-width: 768px) {
+        height: unset;
+    }
+}
+
 .first-screen {
-  background: url("/assets/img/first-screen-bg.png") 100% 100% no-repeat;
-  background-size: cover;
-  padding-bottom: 95px;
+  //background: url("/assets/img/first-screen-bg.png") 100% 100% no-repeat;
+  //background-size: cover;
+  //padding-bottom: 95px;
+
+    &__fon {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 640px;
+
+        @media (max-width: 768px) {
+            position: relative;
+            height: 200px;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
 }
 
 .utp {
@@ -13,12 +41,34 @@
   backdrop-filter: blur(15px);
   border-radius: 0px 0px 15px 15px;
 
+  @media (max-width: 768px) {
+      margin: 0 auto;
+      align-items: center;
+      padding: 30px 0 70px 0;
+  }
+
   &__title {
     font-weight: 900;
     font-size: 40px;
     line-height: 50px;
     text-transform: uppercase;
     color: #2D2D2D;
+
+      @media (max-width: 768px) {
+          text-align: center;
+      }
+
+      @media (max-width: 480px) {
+          font-weight: 900;
+          font-size: 30px;
+          line-height: 38px;
+          text-align: center;
+          text-transform: uppercase;
+      }
+
+      @media (max-width: 360px) {
+          font-size: 28px;
+      }
   }
 
   &__text {
@@ -28,6 +78,14 @@
     font-size: 16px;
     line-height: 140%;
     color: #2D2D2D;
+
+      @media (max-width: 768px) {
+          text-align: center;
+      }
+
+      @media (max-width: 480px) {
+          width: 100%;
+      }
   }
 
   &__button {
@@ -39,6 +97,19 @@
     display: flex;
     justify-content: space-between;
     column-gap: 30px;
+
+      @media (max-width: 540px) {
+          display: none;
+      }
+
+      @media (max-width: 768px) {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          column-gap: 30px;
+          justify-content: center;
+          padding-right: 20px;
+          padding-left: 20px;
+      }
 
     &-item {
       &:not(:last-child) {

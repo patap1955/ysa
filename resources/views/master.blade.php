@@ -66,30 +66,35 @@
                 <a href="tel:+7 937 703-07-68">+7 937 703-07-68</a>
             </div>
         </section>
-        <div class="first-screen">
-            <div class="container">
-                <div class="utp">
-                    <h1 class="utp__title">Промышленное и гражданское строительство</h1>
-                    <p class="utp__text">ООО «ЮСА» предоставляет профессиональные услуги полного цикла по строительству промышленных и гражданских объектов.</p>
-                    <div class="utp__button">
-                        <a href="#" class="btn btn-primary">Узнать подробнее</a>
+        <div id="first-screen">
+            <div class="first-screen__fon">
+                <img src="{{ asset('assets/img/first-screen-bg.png') }}">
+            </div>
+            <div class="first-screen">
+                <div class="container">
+                    <div class="utp">
+                        <h1 class="utp__title">Промышленное и гражданское строительство</h1>
+                        <p class="utp__text">ООО «ЮСА» предоставляет профессиональные услуги полного цикла по строительству промышленных и гражданских объектов.</p>
+                        <div class="utp__button">
+                            <a href="#" class="btn btn-primary">Узнать подробнее</a>
+                        </div>
+                        <div class="utp__footer">
+                            <div class="utp__footer-item">
+                                <p class="utp__footer-item-title">10 лет</p>
+                                <p class="utp__footer-item-text">опыта работы</p>
+                            </div>
+                            <div class="utp__footer-item">
+                                <p class="utp__footer-item-title">100+</p>
+                                <p class="utp__footer-item-text">объектов построено в России</p>
+                            </div>
+                            <div class="utp__footer-item">
+                                <p class="utp__footer-item-title">100+</p>
+                                <p class="utp__footer-item-text">клиентов выбрали нас для сотрудничества</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="utp__footer">
-                        <div class="utp__footer-item">
-                            <p class="utp__footer-item-title">10 лет</p>
-                            <p class="utp__footer-item-text">опыта работы</p>
-                        </div>
-                        <div class="utp__footer-item">
-                            <p class="utp__footer-item-title">100+</p>
-                            <p class="utp__footer-item-text">объектов построено в России</p>
-                        </div>
-                        <div class="utp__footer-item">
-                            <p class="utp__footer-item-title">100+</p>
-                            <p class="utp__footer-item-text">клиентов выбрали нас для сотрудничества</p>
-                        </div>
-                    </div>
-                </div>
 
+                </div>
             </div>
         </div>
 
