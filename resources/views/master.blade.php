@@ -205,34 +205,64 @@
                 <div class="portfolioSwiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide portfolio-slide">
-                            <a data-fancybox="gallery" href="">
+                            <a
+                               data-fancybox="gallery"
+                               data-caption="Демонтаж блока разделения воздуха АКТ 16-2 в рабочем цехе АО «Невинномысский Азот» ЕвроХим"
+                               href="{{ asset('assets/img/portfolio-1.png') }}"
+                            >
                                 <img src="{{ asset('assets/img/portfolio-1.png') }}" />
                             </a>
+                            <p class="swiper-text">Демонтаж блока разделения воздуха АКТ 16-2 в рабочем цехе АО «Невинномысский Азот» ЕвроХим</p>
                         </div>
                         <div class="swiper-slide portfolio-slide">
-                            <a data-fancybox="gallery" href="">
+                            <a
+                                data-fancybox="gallery"
+                                data-caption="Реконструкция подстанции демонтаж и монтаж фундамента установка трансформатора на ПС 220 кВ «Котельниково». ПАО «Россети»"
+                                href="{{ asset('assets/img/portfolio-2.png') }}"
+                            >
                                 <img src="{{ asset('assets/img/portfolio-2.png') }}" />
                             </a>
+                            <p class="swiper-text">Реконструкция подстанции демонтаж и монтаж фундамента установка трансформатора на ПС 220 кВ «Котельниково». ПАО «Россети»</p>
                         </div>
                         <div class="swiper-slide portfolio-slide">
-                            <a data-fancybox="gallery" href="">
+                            <a
+                                data-fancybox="gallery"
+                                data-caption="Демонтаж механизированным способом хим. комбината. Енисей"
+                                href="{{ asset('assets/img/portfolio-3.png') }}"
+                            >
                                 <img src="{{ asset('assets/img/portfolio-3.png') }}" />
                             </a>
+                            <p class="swiper-text">Демонтаж механизированным способом хим. комбината. Енисей</p>
                         </div>
                         <div class="swiper-slide portfolio-slide">
-                            <a data-fancybox="gallery" href="">
+                            <a
+                                data-fancybox="gallery"
+                                data-caption="Строительство пункта перегруза на АО «Птицефабрика Краснодонская» АПХ «КоПИТАНИЯ»"
+                                href="{{ asset('assets/img/portfolio-4.png') }}"
+                            >
                                 <img src="{{ asset('assets/img/portfolio-4.png') }}" />
                             </a>
+                            <p class="swiper-text">Строительство пункта перегруза на АО «Птицефабрика Краснодонская» АПХ «КоПИТАНИЯ»</p>
                         </div>
                         <div class="swiper-slide portfolio-slide">
-                            <a data-fancybox="gallery" href="">
+                            <a
+                                data-fancybox="gallery"
+                                data-caption="Монтаж теплоизоляции РВС и трубопровода на территории ООО «КОНТУР СПб»"
+                                href="{{ asset('assets/img/portfolio-5.png') }}"
+                            >
                                 <img src="{{ asset('assets/img/portfolio-5.png') }}" />
                             </a>
+                            <p class="swiper-text">Монтаж теплоизоляции РВС и трубопровода на территории ООО «КОНТУР СПб»</p>
                         </div>
                         <div class="swiper-slide portfolio-slide">
-                            <a data-fancybox="gallery" href="">
+                            <a
+                                data-fancybox="gallery"
+                                data-caption=""
+                                href="{{ asset('assets/img/portfolio-6.png') }}"
+                            >
                                 <img src="{{ asset('assets/img/portfolio-6.png') }}" />
                             </a>
+                            <p class="swiper-text"></p>
                         </div>
 
                     </div>
@@ -244,6 +274,96 @@
                 </div>
             </div>
         </div>
+
+        <div id="contacts">
+            <div class="contacts-fon">
+                <div class="container-fluid">
+                    <div class="container contacts-form">
+                        <h2 class="contacts-form__title">Заказать обратный звонок</h2>
+                        <p class="contacts-form__text">Если у вас остались вопросы, оставьте контактные данные и мы обязательно позвоним</p>
+                        <form>
+                            <div class="form-group">
+                                <input class="form-control contacts-form__input" type="text" placeholder="Ваше имя" name="name" id="inpunContactsName">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control contacts-form__input" type="text" placeholder="+7 (970) 251 25 78" name="phone" id="inpunContactsPhone">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control contacts-form__input contacts-form__textarea" id="inpunContactsText" name="text" placeholder="Опишите вопрос или предложение"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" id="buttonContacts" class="btn btn-primary">Заказать звонок</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section id="contacts__map">
+            <div id="map"></div>
+            <div class="container">
+                <div class="map">
+                    <h2 class="map__title">Контакты</h2>
+                    <div class="map__info">
+                        <div class="map__info-grid">
+                            <div class="map__info-grid-left">
+                                <span>Телефон</span>
+                            </div>
+                            <div class="map__info-grid-right">
+                                <a href="tel:+7 937 703-07-68">+7 937 703-07-68</a>
+                            </div>
+                        </div>
+                        <div class="map__info-grid">
+                            <div class="map__info-grid-left">
+                                <span>Почта</span>
+                            </div>
+                            <div class="map__info-grid-right">
+                                <a href="mailto:ugstroi34@mail.ru">ugstroi34@mail.ru</a>
+                            </div>
+                        </div>
+                        <div class="map__info-grid">
+                            <div class="map__info-grid-left">
+                                <span>Адрес</span>
+                            </div>
+                            <div class="map__info-grid-right">
+                                <span>404130, Волгоградская область, г. Волжский, ул. 6-я Автодорога 18Б, офис 3</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer id="footer">
+            <div class="container footer">
+                <div class="footer__top">
+                    <div class="footer__logo">
+                        <a href="/"><img src="{{ asset("assets/img/logo.svg") }}"></a>
+                    </div>
+                    <div class="footer__nav">
+                        <ul class="nav-list">
+                            <li class="nav-item">
+                                <a href="#servaces" class="nav-link">Услуги</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#portfolio" class="nav-link">Наши проекты</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#about-as" class="nav-link">О компании</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#contacts" class="nav-link">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__bottom">
+                    <p>© 2022, Все права защищены</p>
+                    <p>Сайт разработан компанией <a href="https://alex-media.ru">ALEX–MEDIA</a> </p>
+                </div>
+            </div>
+        </footer>
+
         <script src="{{ mix('/assets/js/main.js') }}"></script>
         @yield("scripts")
     </body>

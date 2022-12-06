@@ -234,7 +234,7 @@
     width: 100px;
     height: 10px ;
     border-radius: 0;
-    background: rgba(255, 255, 255, 0.5);
+    background: #a4a4a4;
     display: inline-block ;
 
     @media (max-width: 1024px) {
@@ -286,4 +286,46 @@
 
 .swiper-backface-hidden {
     overflow-x: hidden;
+}
+
+.swiper-text {
+    margin-top: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    color: #2D2D2D;
+}
+
+.swiper-pagination {
+    margin-bottom: 0;
+}
+
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: -30px;
+}
+
+.swiper-pagination-bullet {
+    margin-right: 8px !important;
+    width: 24px;
+    height: 4px;
+    background: #DBE0E8;
+    border-radius: 2px;
+}
+
+.swiper-pagination-bullet-active {
+    background: #094BAD;;
+}
+
+.swiper-button-next {
+    right: -31px;
+}
+
+.swiper-button-prev {
+    left: -35px;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    width: 15px;
+    height: 30px;
+    color: #2D2D2D;
 }

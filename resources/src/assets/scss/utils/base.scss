@@ -29,7 +29,6 @@ body {
     -ms-overflow-x: hidden;
     -o-overflow-x: hidden;
     font-family: 'Open', sans-serif;
-    padding-bottom: 100px;
 }
 
 body.lock {
@@ -50,6 +49,10 @@ a {
         padding-left: 15px;
         padding-right: 15px;
     }
+}
+
+.container-fluid {
+    width: 100vw;
 }
 
 
