@@ -29,7 +29,17 @@
                             <p class="header__info-address-work">Пн-Пт с 9:00 до 20:00</p>
                         </div>
                         <div class="header__info-phone">
-                            <a class="btn btn-base" href="tel:+7 937 703-07-68">+7 937 703-07-68</a>
+                            <a class="btn btn-base header__info-phone-decstop" href="tel:+7 937 703-07-68">+7 937 703-07-68</a>
+                            <a class="header__info-phone-mobile" href="tel:+7 937 703-07-68">+7 937 703-07-68</a>
+                        </div>
+                        <div class="burger">
+                            <span>
+                                <svg width="40" height="28" viewBox="0 0 40 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 1C0 0.447715 0.447715 0 1 0H39C39.5523 0 40 0.447715 40 1V3C40 3.55228 39.5523 4 39 4H0.999999C0.447714 4 0 3.55228 0 3V1Z" fill="#8B8B8B"/>
+                                    <path d="M0 13C0 12.4477 0.447715 12 1 12H39C39.5523 12 40 12.4477 40 13V15C40 15.5523 39.5523 16 39 16H0.999999C0.447714 16 0 15.5523 0 15V13Z" fill="#8B8B8B"/>
+                                    <path d="M0 25C0 24.4477 0.447715 24 1 24H39C39.5523 24 40 24.4477 40 25V27C40 27.5523 39.5523 28 39 28H0.999999C0.447714 28 0 27.5523 0 27V25Z" fill="#8B8B8B"/>
+                                </svg>
+                            </span>
                         </div>
                     </div>
                     <div class="header__nav">
@@ -51,6 +61,11 @@
                 </div>
             </div>
         </header>
+        <section class="phone-mobile">
+            <div class="container phone-mobile__container">
+                <a href="tel:+7 937 703-07-68">+7 937 703-07-68</a>
+            </div>
+        </section>
         <div class="first-screen">
             <div class="container">
                 <div class="utp">

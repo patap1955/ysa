@@ -6150,6 +6150,90 @@ textarea.form-control-lg {
 .invisible {
   visibility: hidden !important;
 }
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("SourceSansPro-Bold.eot");
+  src: local("Source Sans Pro Bold"), local("SourceSansPro-Bold"), url("SourceSansPro-Bold.eot?#iefix") format("embedded-opentype"), url("SourceSansPro-Bold.woff2") format("woff2"), url("SourceSansPro-Bold.woff") format("woff"), url("SourceSansPro-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("SourceSansPro-ExtraLightItalic.eot");
+  src: local("Source Sans Pro ExtraLight Italic"), local("SourceSansPro-ExtraLightItalic"), url("SourceSansPro-ExtraLightItalic.eot?#iefix") format("embedded-opentype"), url("SourceSansPro-ExtraLightItalic.woff2") format("woff2"), url("SourceSansPro-ExtraLightItalic.woff") format("woff"), url("SourceSansPro-ExtraLightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("SourceSansPro-Light.eot");
+  src: local("Source Sans Pro Light"), local("SourceSansPro-Light"), url("SourceSansPro-Light.eot?#iefix") format("embedded-opentype"), url("SourceSansPro-Light.woff2") format("woff2"), url("SourceSansPro-Light.woff") format("woff"), url("SourceSansPro-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("SourceSansPro-BoldItalic.eot");
+  src: local("Source Sans Pro Bold Italic"), local("SourceSansPro-BoldItalic"), url("SourceSansPro-BoldItalic.eot?#iefix") format("embedded-opentype"), url("SourceSansPro-BoldItalic.woff2") format("woff2"), url("SourceSansPro-BoldItalic.woff") format("woff"), url("SourceSansPro-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("SourceSansPro-LightItalic.eot");
+  src: local("Source Sans Pro Light Italic"), local("SourceSansPro-LightItalic"), url("SourceSansPro-LightItalic.eot?#iefix") format("embedded-opentype"), url("SourceSansPro-LightItalic.woff2") format("woff2"), url("SourceSansPro-LightItalic.woff") format("woff"), url("SourceSansPro-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("SourceSansPro-Black.eot");
+  src: local("Source Sans Pro Black"), local("SourceSansPro-Black"), url("SourceSansPro-Black.eot?#iefix") format("embedded-opentype"), url("SourceSansPro-Black.woff2") format("woff2"), url("SourceSansPro-Black.woff") format("woff"), url("SourceSansPro-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("SourceSansPro-Regular.eot");
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("SourceSansPro-Regular.eot?#iefix") format("embedded-opentype"), url("SourceSansPro-Regular.woff2") format("woff2"), url("SourceSansPro-Regular.woff") format("woff"), url("SourceSansPro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("SourceSansPro-SemiBold.eot");
+  src: local("Source Sans Pro SemiBold"), local("SourceSansPro-SemiBold"), url("SourceSansPro-SemiBold.eot?#iefix") format("embedded-opentype"), url("SourceSansPro-SemiBold.woff2") format("woff2"), url("SourceSansPro-SemiBold.woff") format("woff"), url("SourceSansPro-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("SourceSansPro-Italic.eot");
+  src: local("Source Sans Pro Italic"), local("SourceSansPro-Italic"), url("SourceSansPro-Italic.eot?#iefix") format("embedded-opentype"), url("SourceSansPro-Italic.woff2") format("woff2"), url("SourceSansPro-Italic.woff") format("woff"), url("SourceSansPro-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("SourceSansPro-SemiBoldItalic.eot");
+  src: local("Source Sans Pro SemiBold Italic"), local("SourceSansPro-SemiBoldItalic"), url("SourceSansPro-SemiBoldItalic.eot?#iefix") format("embedded-opentype"), url("SourceSansPro-SemiBoldItalic.woff2") format("woff2"), url("SourceSansPro-SemiBoldItalic.woff") format("woff"), url("SourceSansPro-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("SourceSansPro-BlackItalic.eot");
+  src: local("Source Sans Pro Black Italic"), local("SourceSansPro-BlackItalic"), url("SourceSansPro-BlackItalic.eot?#iefix") format("embedded-opentype"), url("SourceSansPro-BlackItalic.woff2") format("woff2"), url("SourceSansPro-BlackItalic.woff") format("woff"), url("SourceSansPro-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("SourceSansPro-ExtraLight.eot");
+  src: local("Source Sans Pro ExtraLight"), local("SourceSansPro-ExtraLight"), url("SourceSansPro-ExtraLight.eot?#iefix") format("embedded-opentype"), url("SourceSansPro-ExtraLight.woff2") format("woff2"), url("SourceSansPro-ExtraLight.woff") format("woff"), url("SourceSansPro-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -6537,7 +6621,6 @@ td, th {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Source Sans Pro";
 }
 
 /* Скролл бар */
@@ -6619,11 +6702,20 @@ a {
   color: #094BAD;
 }
 .header__info-address-work {
+  margin-top: 8px;
   font-weight: 600;
   font-size: 14px;
   line-height: 18px;
   text-align: center;
   color: #8B8B8B;
+}
+.header__info-phone-mobile {
+  display: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #094BAD;
 }
 .header__nav {
   margin-top: 20px;
@@ -6721,6 +6813,7 @@ a {
 
 .btn {
   padding: 15px 30px;
+  font-family: "Open", sans-serif;
 }
 
 .btn-base {
@@ -7931,7 +8024,7 @@ button.swiper-pagination-bullet {
 .map {
   position: relative;
   z-index: 1;
-  width: 525px;
+  width: 565px;
   padding: 50px 30px;
   background: #FFFFFF;
   border-radius: 0px 0px 30px 30px;
@@ -7974,6 +8067,20 @@ button.swiper-pagination-bullet {
   transition: all 0.15s ease;
 }
 .map__info-grid-right a:hover {
+  color: #094BAD;
+}
+
+.phone-mobile {
+  display: none;
+}
+.phone-mobile__container {
+  text-align: center;
+}
+.phone-mobile__container a {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
   color: #094BAD;
 }
 @media (min-width: 576px){
@@ -8795,6 +8902,11 @@ button.swiper-pagination-bullet {
   .text-sm-center {
     text-align: center !important;
   }
+  .container {
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 @media (min-width: 768px){
   .container-md, .container-sm, .container {
@@ -9566,6 +9678,11 @@ button.swiper-pagination-bullet {
   }
   .text-md-center {
     text-align: center !important;
+  }
+  .container {
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 @media (min-width: 992px){
@@ -10342,6 +10459,11 @@ button.swiper-pagination-bullet {
   }
   .text-lg-center {
     text-align: center !important;
+  }
+  .container {
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 @media (min-width: 1200px){
@@ -12097,6 +12219,15 @@ button.swiper-pagination-bullet {
   }
 }
 @media (max-width: 1170px){
+  .header__info {
+    justify-content: end;
+  }
+  .header__info-email {
+    display: none;
+  }
+  .header__info-address {
+    display: none;
+  }
   .swiper-slide__container {
     height: 718px;
   }
@@ -12119,6 +12250,15 @@ button.swiper-pagination-bullet {
 @media (max-width: 1024px){
   .swiper-pagination-bullet {
     margin-right: 8px !important;
+  }
+}
+@media (max-width: 1000px){
+  .header__info {
+    display: flex;
+    align-items: center;
+  }
+  .header__nav {
+    display: none;
   }
 }
 @media (max-width: 991.98px){
@@ -12202,6 +12342,12 @@ button.swiper-pagination-bullet {
   }
 }
 @media (max-width: 768px){
+  .header__info-phone-decstop {
+    display: none;
+  }
+  .header__info-phone-mobile {
+    display: block;
+  }
   .swiper-slide__container {
     padding-top: 168px;
     display: flex;
@@ -12336,6 +12482,12 @@ button.swiper-pagination-bullet {
     transition: none;
   }
 }
+@media (max-width: 576px){
+  .header__logo {
+    width: 160px;
+    height: 70px;
+  }
+}
 @media (max-width: 575.98px){
   .table-responsive-sm {
     overflow-x: auto;
@@ -12426,6 +12578,13 @@ button.swiper-pagination-bullet {
     padding-left: 15px;
     padding-right: 15px;
   }
+  .header__logo {
+    width: 150px;
+    height: 65px;
+  }
+  .header__info-phone-mobile {
+    display: none;
+  }
   .swiper-slide__info-title {
     font-size: 27px;
     line-height: 37px;
@@ -12446,6 +12605,11 @@ button.swiper-pagination-bullet {
   }
   .mini-info {
     width: 400px;
+  }
+  .phone-mobile {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 24px;
   }
 }
 @media (max-width: 400px){

@@ -1,0 +1,22 @@
+.phone-mobile {
+    display: none;
+
+    @media (max-width: 480px) {
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 24px;
+    }
+
+    &__container {
+        text-align: center;
+        a {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 25px;
+            color: #094BAD;
+        }
+    }
+
+
+}

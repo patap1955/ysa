@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Source Sans Pro';
+    //font-family: 'Source Sans Pro';
 }
 /* Скролл бар */
 *{
@@ -44,6 +44,27 @@ a {
     max-width: 1170px;
     min-width: 200px;
     margin: 0 auto;
+
+    @media (min-width: 992px)
+    {
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    @media (min-width: 768px)
+    {
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    @media (min-width: 576px)
+    {
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 
     @media (max-width: 480px) {
         padding-left: 15px;
