@@ -16,6 +16,7 @@
 
 .portfolioSwiper {
   margin-top: 40px;
+    overflow-y: hidden;
 }
 
 .poligon2 {
@@ -27,4 +28,13 @@
     @media (max-width: 1200px) {
         display: none;
     }
+}
+
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: 0;
+    margin-top: 30px;
+}
+
+.swiper-pagination {
+    position: relative;
 }

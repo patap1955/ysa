@@ -1,7 +1,6 @@
 #about-as {
   margin-top: 70px;
   background: url("/assets/img/about-as-bg.png");
-  //height: 618px;
 }
 
 .about-as {
@@ -16,13 +15,18 @@
     }
 
     @media (max-width: 1000px) {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 50% 48%;
+        align-items: center;
         column-gap: 20px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        height: auto;
     }
 
     @media (max-width: 768px) {
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 20px;
+        display: flex;
+        flex-direction: column;
+
         height: auto;
     }
 
@@ -58,26 +62,25 @@
         }
 
         @media (max-width: 1000px) {
-            top: 70px;
+            height: auto;
             left: 0;
-            grid-column: 2 / 4;
+            grid-column: 1 / 2;
             grid-row: 1 / 2;
-            height: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            top: 0;
         }
 
         @media (max-width: 768px) {
             top: 0;
-            margin-top: 70px;
+            margin-top: 0;
             left: 0;
-            grid-column: 1 / 3;
-            grid-row: 1 / 2;
-            height: auto;
         }
     }
 
     &__left-text {
         position: relative;
-        //bottom: -30px;
         top: -30px;
         margin-left: 70px;
         grid-column: 1 / 7;
@@ -91,9 +94,12 @@
 
         @media (max-width: 1000px) {
             margin-left: 0;
-            grid-column: 1 / 3;
+            margin-top: 40px;
+            grid-column: 1 / 2;
             grid-row: 2 / 3;
             top: 0;
+            display: flex;
+            align-items: start;
         }
 
         @media (max-width: 768px) {
@@ -121,6 +127,7 @@
             grid-column: 1 / 2;
             grid-row: 1 / 2;
             height: 300px;
+            display: none;
         }
 
         @media (max-width: 768px) {
@@ -155,19 +162,17 @@
         }
 
         @media (max-width: 1000px) {
-            grid-column: 3 / 4;
-            grid-row: 1 / 2;
-            height: 300px;
-            bottom: unset;
-            top: 346px;
+            grid-column: 2 / 3;
+            grid-row: 1 / 3;
+            bottom: 0;
+            top: 0;
         }
 
         @media (max-width: 768px) {
-            grid-column: 2 / 3;
-            grid-row: 3 / 4;
-            height: auto;
             top: unset;
-            bottom: -30px;
+            bottom: 0;
+            height: auto;
+            margin-top: 30px;
         }
 
         img {

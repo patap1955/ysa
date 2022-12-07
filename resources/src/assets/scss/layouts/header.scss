@@ -93,6 +93,10 @@
                   display: none;
               }
           }
+
+          &.active {
+              display: none;
+          }
       }
   }
 
@@ -102,5 +106,49 @@
       @media (max-width: 1000px) {
           display: none;
       }
+
+      &.active {
+          height: 100vh;
+          display: block;
+
+          .nav-list {
+              display: flex;
+              flex-direction: column;
+          }
+      }
   }
+
+    &.active {
+
+        &.header__right {
+            &.header__info {
+                display: none;
+            }
+        }
+    }
+}
+
+.menu-mobile {
+    display: none;
+    &.active {
+        display: block;
+        height: 100vh;
+        background: #ffffff;
+    }
+
+    &__phone {
+        position: fixed;
+        bottom: 50px;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+}
+
+.nav-list__mobile.active {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    align-items: center;
 }
