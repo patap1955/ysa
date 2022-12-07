@@ -45,7 +45,7 @@
                     <div class="header__nav">
                         <ul class="nav-list">
                             <li class="nav-item">
-                                <a href="#servaces" class="nav-link">Услуги</a>
+                                <a href="#services" class="nav-link">Услуги</a>
                             </li>
                             <li class="nav-item">
                                 <a href="#portfolio" class="nav-link">Наши проекты</a>
