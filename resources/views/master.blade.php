@@ -116,28 +116,6 @@
             </div>
         </section>
 
-{{--        <div id="about-as">--}}
-{{--            <div class="container about-as">--}}
-{{--                <div class="about-as__left">--}}
-{{--                    <div class="about-as__left-img">--}}
-{{--                        <img src="{{ asset('assets/img/about-as-1.png') }}" />--}}
-{{--                    </div>--}}
-{{--                    <div class="about-as__left-info">--}}
-{{--                        <h2 class="about-as__left-info-title">О компании</h2>--}}
-{{--                        <p class="about-as__left-info-text">ООО «ЮГ СТРОЙ АЛЬЯНС» обеспечивает полный комплекс работ по строительству более 10 лет. Основное направление деятельности является строительство промышленных и гражданских объектов, проектирование.</p>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--                <div class="about-as__right">--}}
-{{--                    <div class="about-as__right-info">--}}
-{{--                        <p class="about-as__right-info-text">Высококвалифицированные бригады и специалисты компании позволяют нам предоставлять профессиональные услуги полного цикла по строительству промышленных и гражданских объектов. Мы выполняем все необходимые работы, начиная от проектированием и разработкой и заканчивая монтажом, пусконаладкой и автоматизацией технологических процессов.</p>--}}
-{{--                    </div>--}}
-{{--                    <div class="about-as__right-img">--}}
-{{--                        <img src="{{ asset('assets/img/about-as-2.png') }}" />--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-
         <div id="services">
             <img class="poligon1" src="{{ asset('assets/img/poligon-1.svg') }}">
             <div class="containers services">
@@ -238,6 +216,7 @@
         </div>
 
         <div id="portfolio">
+            <img class="poligon2" src="{{ asset('assets/img/poligon-2.svg') }}">
             <div class="containers portfolio">
                 <h2 class="portfolio__title">Наши работы</h2>
                 <div class="portfolioSwiper">
@@ -338,7 +317,6 @@
             </div>
         </div>
         <section id="contacts__map">
-            <div id="map"></div>
             <div class="container">
                 <div class="map">
                     <h2 class="map__title">Контакты</h2>
@@ -370,6 +348,7 @@
                     </div>
                 </div>
             </div>
+            <div id="map"></div>
         </section>
 
         <footer id="footer">
@@ -379,7 +358,7 @@
                         <a href="/"><img src="{{ asset("assets/img/logo.svg") }}"></a>
                     </div>
                     <div class="footer__nav">
-                        <ul class="nav-list">
+                        <ul class="nav-list nav-list-footer">
                             <li class="nav-item">
                                 <a href="#servaces" class="nav-link">Услуги</a>
                             </li>
