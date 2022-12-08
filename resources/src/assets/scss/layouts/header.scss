@@ -139,6 +139,7 @@
     &__phone {
         position: fixed;
         bottom: 50px;
+        z-index: 1000;
         left: 0;
         right: 0;
         text-align: center;
