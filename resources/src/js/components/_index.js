@@ -1,3 +1,5 @@
 import './burger'
 import './fixedMenu'
 import './scroll'
+import './animate'
+import './antispam'

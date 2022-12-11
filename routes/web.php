@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [\App\Http\Controllers\PageController::class, 'index'])->name('index');
+Route::post('/form-contacts', [\App\Http\Controllers\PageController::class, "formContacts"])->name("form-contacts");
 
 //Route::get("/home", [\App\Http\Controllers\HomeController::class, "index"])->name("home");
 //Route::post("/home", [\App\Http\Controllers\HomeController::class, "contact"])->name("contact");

@@ -72,7 +72,7 @@
 
         <header id="header">
             <div class="containers header">
-                <div class="header__logo">
+                <div class="header__logo animate__animated animate__bounce">
                     <a href="/">
                         <img src="{{ asset('assets/img/logo.svg') }}">
                     </a>
@@ -149,8 +149,8 @@
             </div>
             <div class="first-screen">
                 <div class="containers">
-                    <div class="utp">
-                        <h1 class="utp__title">Промышленное и гражданское строительство</h1>
+                    <div class="utp animate__animated animate__zoomIn animate__delay-1s">
+                        <h1 class="utp__title animate__animated animate__backInDown animate__delay-1s">Промышленное и гражданское строительство</h1>
                         <p class="utp__text">ООО «ЮСА» предоставляет профессиональные услуги полного цикла по строительству промышленных и гражданских объектов.</p>
                         <div class="utp__button">
                             <a href="#" class="btn btn-primary">Узнать подробнее</a>
@@ -177,17 +177,17 @@
 
         <section id="about-as">
             <div class="containers about-as">
-                <div class="about-as__img-left">
+                <div class="about-as__img-left animate__animated">
                     <img src="{{ asset('assets/img/about-as-1.png') }}" />
                 </div>
-                <div class="about-as__right-text">
+                <div class="about-as__right-text animate__animated">
                     <h2 class="about-as__title">О компании</h2>
                     <p class="about-as__text">ООО «ЮГ СТРОЙ АЛЬЯНС» обеспечивает полный комплекс работ по строительству более 10 лет. Основное направление деятельности является строительство промышленных и гражданских объектов, проектирование.</p>
                 </div>
-                <div class="about-as__left-text">
+                <div class="about-as__left-text animate__animated">
                     <p class="about-as__text">Высококвалифицированные бригады и специалисты компании позволяют нам предоставлять профессиональные услуги полного цикла по строительству промышленных и гражданских объектов. Мы выполняем все необходимые работы, начиная от проектированием и разработкой и заканчивая монтажом, пусконаладкой и автоматизацией технологических процессов.</p>
                 </div>
-                <div class="about-as__img-right">
+                <div class="about-as__img-right animate__animated">
                     <img src="{{ asset('assets/img/about-as-2.png') }}" />
                 </div>
             </div>
@@ -198,7 +198,7 @@
             <div class="containers services">
                 <h2 class="services__title">Услуги</h2>
                 <div class="services__list">
-                    <div class="services__item">
+                    <div class="services__item servicesItemAnimateLeft animate__animated">
                         <div class="services__item-header">
                             <img src="{{ asset('assets/img/services-item-1.png') }}">
                         </div>
@@ -213,7 +213,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="services__item">
+                    <div class="services__item servicesItemAnimateCenter animate__animated">
                         <div class="services__item-header">
                             <img src="{{ asset('assets/img/services-item-2.png') }}">
                         </div>
@@ -228,7 +228,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="services__item">
+                    <div class="services__item servicesItemAnimateRight animate__animated">
                         <div class="services__item-header">
                             <img src="{{ asset('assets/img/services-item-3.png') }}">
                         </div>
@@ -243,7 +243,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="services__item">
+                    <div class="services__item servicesItemAnimateLeft animate__animated">
                         <div class="services__item-header">
                             <img src="{{ asset('assets/img/services-item-4.png') }}">
                         </div>
@@ -258,7 +258,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="services__item">
+                    <div class="services__item servicesItemAnimateCenterBottom animate__animated">
                         <div class="services__item-header">
                             <img src="{{ asset('assets/img/services-item-5.png') }}">
                         </div>
@@ -273,7 +273,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="services__item">
+                    <div class="services__item servicesItemAnimateRight animate__animated">
                         <div class="services__item-header">
                             <img src="{{ asset('assets/img/services-item--6.png') }}">
                         </div>
@@ -370,32 +370,33 @@
         </div>
 
         <div id="contacts">
-            <div class="contacts-fon">
+            <div class="contacts-fon contactsFon animate__animated">
                 <div class="container-fluid">
                     <div class="containers contacts-form">
                         <h2 class="contacts-form__title">Заказать обратный звонок</h2>
                         <p class="contacts-form__text">Если у вас остались вопросы, оставьте контактные данные и мы обязательно позвоним</p>
                         <form>
                             <div class="form-group">
-                                <input class="form-control contacts-form__input" type="text" placeholder="Ваше имя" name="name" id="inpunContactsName">
+                                <input class="form-control contacts-form__input" type="text" placeholder="Ваше имя" name="name" id="formInputName">
                             </div>
                             <div class="form-group">
-                                <input class="form-control contacts-form__input" type="text" placeholder="+7 (970) 251 25 78" name="phone" id="inpunContactsPhone">
+                                <input class="form-control contacts-form__input" type="text" placeholder="+7 (970) 251 25 78" name="phone" id="formContactPhone">
                             </div>
                             <div class="form-group">
                                 <textarea class="form-control contacts-form__input contacts-form__textarea" id="inpunContactsText" name="text" placeholder="Опишите вопрос или предложение"></textarea>
                             </div>
                             <div class="form-group">
-                                <button type="submit" id="buttonContacts" class="btn btn-primary button-contacts">Заказать звонок</button>
+                                <button type="submit" id="contactsButton" class="btn btn-primary button-contacts">Заказать звонок</button>
                             </div>
                         </form>
+                        <div id="errorInputForm" class="errorInputForm"></div>
                     </div>
                 </div>
             </div>
         </div>
         <section id="contacts__map">
             <div class="container">
-                <div class="map">
+                <div class="map animate__animated">
                     <h2 class="map__title">Контакты</h2>
                     <div class="map__info">
                         <div class="map__info-grid">
@@ -440,7 +441,7 @@
                                 <a href="#about-as" class="nav-link">О компании</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#servaces" class="nav-link">Услуги</a>
+                                <a href="#services" class="nav-link">Услуги</a>
                             </li>
                             <li class="nav-item">
                                 <a href="#portfolio" class="nav-link">Наши проекты</a>
@@ -457,6 +458,21 @@
                 </div>
             </div>
         </footer>
+
+
+        <!--  Модельное окно с вопросом от спама -->
+        <div id="myQuestions" class="modalForm">
+            <div class="modal-content-form">
+                <span class="closeForm">&times;</span>
+                <p class="text-question">Подтвердите что вы не робот. Ответьте на вопрос</p>
+                <p class="text-question-answer" id="modelQuestions"></p>
+                <div class="modal-form-block">
+                    <input type="text" id="inputModal" required>
+                    <button class="btn btn-yellow" id="questionButton">Ответить</button>
+                    <p class="errorAnswerQuestion"></p>
+                </div>
+            </div>
+        </div>
 
         <script src="{{ mix('/assets/js/main.js') }}"></script>
         @yield("scripts")

@@ -16,7 +16,7 @@
     "devDependencies": {
         "@popperjs/core": "^2.10.2",
         "@vitejs/plugin-vue": "^3.0.1",
-        "axios": "^0.25",
+        "axios": "^0.25.0",
         "bootstrap": "^5.2.2",
         "copy-webpack-plugin": "^11.0.0",
         "imagemin-mozjpeg": "^10.0.0",
@@ -34,6 +34,7 @@
     },
     "dependencies": {
         "@fancyapps/ui": "^4.0.31",
+        "animate.css": "^4.1.1",
         "core-js": "^3.25.5",
         "inputmask": "^5.0.7",
         "jquery": "^3.6.1",
@@ -41,6 +42,7 @@
         "micromodal": "^0.4.10",
         "svg4everybody": "^2.1.9",
         "swiper": "^8.4.2",
+        "toastr": "^2.1.4",
         "ymaps": "^0.2.1"
     }
 }
