@@ -45,18 +45,27 @@ import Toast from "toastr";
             if (inputName && inputPhone) {
                 if (inputName.value === "") {
                     error = true;
-                    errorInputs += "<p>Вы не ввели свое Имя</p>"
+                    inputName.classList.add('is-invalid')
+                    // document.getElementById('formInputNameError').innerText = "Вы не ввели свое Имя"
+                } else {
+                    inputName.classList.remove('is-invalid')
                 }
 
                 if (inputPhone.value === "") {
                     error = true;
-                    errorInputs += "<p>Вы не ввели номер телефона</p>";
+                    inputPhone.classList.add('is-invalid')
+                    // document.getElementById('formInputPhoneError').innerText = "Вы не ввели номер телефона"
+                    // errorInputs += "<p style='color: red'>Вы не ввели номер телефона</p>";
+                } else {
+                    inputPhone.classList.remove('is-invalid')
                 }
             }
 
             if (error) {
-                document.getElementById("errorInputForm").innerHTML = errorInputs;
+                // document.getElementById("errorInputForm").innerHTML = errorInputs;
             } else {
+                inputName.classList.remove('is-invalid')
+                inputPhone.classList.remove('is-invalid')
                 document.getElementById("errorInputForm").innerHTML = "";
                 openModal();
             }
@@ -72,16 +81,16 @@ import Toast from "toastr";
             if (errorInputs == "") {
                 errorAnswerQuestion.innerText = "";
                 questionButton.setAttribute("disabled", "disabled");
-                axios.post('/contacts-form', {
+                axios.post('/form-contacts', {
                     name: inputName.value,
                     phone: inputPhone.value,
-                    text: inpunContactsText,
+                    text: inpunContactsText.value,
                 })
                     .then(function (response) {
-                        if (response.status === 200) {
+                        if (response) {
                             console.log(response)
                             inputModal.value = "";
-                            modalForm.style.display = "none";
+                            document.getElementById("myQuestions").style.display = "none";
                             questionButton.removeAttribute("disabled");
                             document.getElementById("formContacts").reset();
                             Toast.success("Ваше сообщение успешно отправленно", {interval: 3000});

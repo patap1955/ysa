@@ -72,7 +72,7 @@
 
         <header id="header">
             <div class="containers header">
-                <div class="header__logo animate__animated animate__bounce">
+                <div class="header__logo">
                     <a href="/">
                         <img src="{{ asset('assets/img/logo.svg') }}">
                     </a>
@@ -145,7 +145,7 @@
         </section>
         <section id="first-screen">
             <div class="first-screen__fon">
-                <img src="{{ asset('assets/img/first-screen-bg.png') }}">
+                <img src="{{ asset('assets/img/first-screen-bg.jpg') }}">
             </div>
             <div class="first-screen">
                 <div class="containers">
@@ -153,7 +153,7 @@
                         <h1 class="utp__title animate__animated animate__backInDown animate__delay-1s">Промышленное и гражданское строительство</h1>
                         <p class="utp__text">ООО «ЮСА» предоставляет профессиональные услуги полного цикла по строительству промышленных и гражданских объектов.</p>
                         <div class="utp__button">
-                            <a href="#" class="btn btn-primary">Узнать подробнее</a>
+                            <a href="#contacts" class="btn btn-primary">Оствить заявку</a>
                         </div>
                         <div class="utp__footer">
                             <div class="utp__footer-item">
@@ -375,12 +375,14 @@
                     <div class="containers contacts-form">
                         <h2 class="contacts-form__title">Заказать обратный звонок</h2>
                         <p class="contacts-form__text">Если у вас остались вопросы, оставьте контактные данные и мы обязательно позвоним</p>
-                        <form>
+                        <form id="formContacts">
                             <div class="form-group">
                                 <input class="form-control contacts-form__input" type="text" placeholder="Ваше имя" name="name" id="formInputName">
+                                <p class="text-danger" id="formInputNameError"></p>
                             </div>
                             <div class="form-group">
                                 <input class="form-control contacts-form__input" type="text" placeholder="+7 (970) 251 25 78" name="phone" id="formContactPhone">
+                                <p class="text-danger" id="formInputPhoneError"></p>
                             </div>
                             <div class="form-group">
                                 <textarea class="form-control contacts-form__input contacts-form__textarea" id="inpunContactsText" name="text" placeholder="Опишите вопрос или предложение"></textarea>

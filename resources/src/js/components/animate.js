@@ -23,7 +23,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // animate__backInDown
-    const aboutAsImgLeft = document.querySelectorAll('.about-as__img-left')
     const aboutAsImgRight = document.querySelectorAll('.about-as__img-right')
     const aboutAsRightText = document.querySelectorAll('.about-as__right-text')
     const aboutAsLeftText = document.querySelectorAll('.about-as__left-text')
@@ -33,11 +32,12 @@ document.addEventListener("DOMContentLoaded", () => {
     const servicesItemAnimateRight = document.querySelectorAll('.servicesItemAnimateRight')
     const contactsFon = document.querySelectorAll('.contactsFon')
     const map = document.querySelectorAll('.map')
+    const aboutAsImgLeft = document.querySelectorAll('.about-as__img-left')
 
     // console.log(aboutAsImgLeft)
 
     // if (aboutAsImgLeft) animate(aboutAsImgLeft, 'animate__rotateIn')
-    if (aboutAsImgRight) animate(aboutAsImgRight, 'animate__rotateIn')
+    if (aboutAsImgRight) animate(aboutAsImgRight, 'animate__backInRight')
     if (aboutAsRightText) animate(aboutAsRightText, 'animate__zoomIn')
     if (aboutAsLeftText) animate(aboutAsLeftText, 'animate__zoomInUp')
     if (servicesItemAnimateLeft) animate(servicesItemAnimateLeft, 'animate__backInLeft')
@@ -46,10 +46,11 @@ document.addEventListener("DOMContentLoaded", () => {
     if (servicesItemAnimateRight) animate(servicesItemAnimateRight, 'animate__backInRight')
     if (contactsFon) animate(contactsFon, 'animate__backInLeft')
     if (map) animate(map, 'animate__zoomIn')
+    if (aboutAsImgLeft) animate(aboutAsImgLeft, 'animate__backInLeft')
 
     window.addEventListener("scroll", () => {
         // if (aboutAsImgLeft) animate(aboutAsImgLeft, 'animate__rotateIn')
-        if (aboutAsImgRight) animate(aboutAsImgRight, 'animate__rotateIn')
+        if (aboutAsImgRight) animate(aboutAsImgRight, 'animate__backInRight')
         if (aboutAsRightText) animate(aboutAsRightText, 'animate__zoomIn')
         if (aboutAsLeftText) animate(aboutAsLeftText, 'animate__zoomInUp')
         if (servicesItemAnimateLeft) animate(servicesItemAnimateLeft, 'animate__backInLeft')
@@ -58,5 +59,6 @@ document.addEventListener("DOMContentLoaded", () => {
         if (servicesItemAnimateRight) animate(servicesItemAnimateRight, 'animate__backInRight')
         if (contactsFon) animate(contactsFon, 'animate__backInLeft')
         if (map) animate(map, 'animate__zoomIn')
+        if (aboutAsImgLeft) animate(aboutAsImgLeft, 'animate__backInLeft')
     });
 });

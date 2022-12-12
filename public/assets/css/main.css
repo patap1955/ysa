@@ -6922,7 +6922,7 @@ a {
 }
 
 .btn-base {
-  padding: 15px 30px;
+  padding: 10px 20px;
   border: 2px solid #094BAD;
   border-radius: 5px;
   font-weight: 700;
@@ -8175,7 +8175,7 @@ button.swiper-pagination-bullet {
 
 #contacts {
   margin-top: 70px;
-  background: url("/assets/img/contacts-bg.png") 100% 100% no-repeat;
+  background: url("/assets/img/contacts-bg.jpg") 100% 100% no-repeat;
   background-size: cover;
 }
 
