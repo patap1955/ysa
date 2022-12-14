@@ -11,9 +11,10 @@
                     <div class="services__item-content-info">
                         <h3 class="services__item-content-title">Работы по устройству кровели</h3>
                         <p class="services__item-content-text">Наша компания предлагает весь цикл работ по строительству и реконструкции кровельного покрытия любой сложности от разработки проекта до до устройства, зборки на вашей площадке</p>
-                        <div class="services__item-content-button">
-                            <a class="btn btn-primary" href="#contacts">Оставить заявку</a>
-                        </div>
+                    </div>
+
+                    <div class="services__item-content-button">
+                        <a class="btn btn-primary" href="#contacts">Оставить заявку</a>
                     </div>
                 </div>
             </div>
