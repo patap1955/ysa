@@ -45,7 +45,7 @@
     font-size: 20px;
     font-weight: bolder;
     text-decoration: none;
-    color: #03032C;
+    color: #2D2D2D;
 }
 
 .modal-form-block {
@@ -56,31 +56,35 @@
     gap: 15px;
 }
 
-.modal-form-block input{
-    width: 100%;
-    border: 1px solid #505178;
-    border-radius: 30px;
-    padding: 15px 25px;
-    background-color: rgba(194, 219, 255, 0);
-    font-size: 16px;
+.inputModal {
+    border: 1px solid #8a8989 !important;
 }
 
-.modal-form-block button{
-    cursor: pointer;
-    width: 100%;
-    border: none;
-    border-radius: 30px;
-    background-color: #EF2555;
-    padding: 15px 25px;
-    font-size: 20px;
-    font-weight: 900;
-    color: #fff;
-}
+//.modal-form-block input{
+//    width: 100%;
+//    border: 1px solid #505178;
+//    border-radius: 30px;
+//    padding: 15px 25px;
+//    background-color: rgba(194, 219, 255, 0);
+//    font-size: 16px;
+//}
+
+//.modal-form-block button{
+//    cursor: pointer;
+//    width: 100%;
+//    border: none;
+//    border-radius: 30px;
+//    background-color: #EF2555;
+//    padding: 15px 25px;
+//    font-size: 20px;
+//    font-weight: 900;
+//    color: #fff;
+//}
 
 .text-question-answer {
     text-align: center;
     font-size: 18px;
     font-weight: bolder;
     text-decoration: none;
-    color: #03032C;
+    color: #2D2D2D;
 }

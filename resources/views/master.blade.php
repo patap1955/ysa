@@ -469,8 +469,13 @@
                 <p class="text-question">Подтвердите что вы не робот. Ответьте на вопрос</p>
                 <p class="text-question-answer" id="modelQuestions"></p>
                 <div class="modal-form-block">
-                    <input type="text" id="inputModal" required>
-                    <button class="btn btn-yellow" id="questionButton">Ответить</button>
+                    <div class="form-group">
+                        <input class="form-control contacts-form__input inputModal" type="text" id="inputModal" required>
+                        <p class="text-danger" id="formInputPhoneError"></p>
+                    </div>
+                    <div class="form-group">
+                        <button id="questionButton" class="btn btn-primary button-contacts">Ответить</button>
+                    </div>
                     <p class="errorAnswerQuestion"></p>
                 </div>
             </div>
