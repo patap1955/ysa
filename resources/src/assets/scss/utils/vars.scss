@@ -4,3 +4,9 @@ $mainFont                : 'AvenirNextCyr-Demi', Helvetica, Arial, sans-serif;
 // Size
 $mainFontColor           : #101010;
 
+:root {
+    --animate-duration: 1.5s !important;
+    --animate-delay: 1s;
+    --animate-repeat: 1;
+}
+

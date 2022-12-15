@@ -55,5 +55,17 @@ a {
     width: 100vw;
 }
 
+.animate__animated {
+    animation-timing-function: ease;
+}
+
+.animate__zoomIn {
+    animation-duration: .8s;
+}
+
+.animate__backInDown {
+    animation-duration: .8s;
+}
+
 
 

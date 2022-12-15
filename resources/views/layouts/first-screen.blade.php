@@ -4,8 +4,8 @@
     </div>
     <div class="first-screen">
         <div class="containers">
-            <div class="utp animate__animated animate__zoomIn animate__delay-1s">
-                <h1 class="utp__title animate__animated animate__backInDown animate__delay-1s">Промышленное и гражданское строительство</h1>
+            <div class="utp animate__animated animate__zoomIn">
+                <h1 class="utp__title animate__animated animate__backInDown">Промышленное и гражданское строительство</h1>
                 <p class="utp__text">ООО «ЮСА» предоставляет профессиональные услуги полного цикла по строительству промышленных и гражданских объектов.</p>
                 <div class="utp__button">
                     <a href="#contacts" class="btn btn-primary">Оствить заявку</a>
