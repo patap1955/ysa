@@ -51,7 +51,7 @@
             </li>
         </ul>
         <div class="menu-mobile__phone">
-            <a class="btn btn-base" href="tel:+7 937 703-07-68">+7 937 703-07-68</a>
+            <a class="btn btn-base" href="tel:+7 937 703-07-68">+7 937 703-07-86</a>
         </div>
     </div>
 </div>
@@ -73,7 +73,7 @@
                     <p class="header__info-address-work">Пн-Пт с 9:00 до 20:00</p>
                 </div>
                 <div class="header__info-phone">
-                    <a class="btn btn-base header__info-phone-decstop" href="tel:+7 937 703-07-68">+7 937 703-07-68</a>
+                    <a class="btn btn-base header__info-phone-decstop" href="tel:+7 937 703-07-68">+7 937 703-07-86</a>
                     <a class="header__info-phone-mobile" href="tel:+7 937 703-07-68">+7 937 703-07-68</a>
                 </div>
             </div>
@@ -120,7 +120,7 @@
             </li>
         </ul>
         <div class="menu-mobile__phone">
-            <a class="btn btn-base" href="tel:+7 937 703-07-68">+7 937 703-07-68</a>
+            <a class="btn btn-base" href="tel:+7 937 703-07-68">+7 937 703-07-86</a>
         </div>
     </div>
 </header>
