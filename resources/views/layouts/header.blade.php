@@ -17,7 +17,7 @@
             </ul>
         </div>
         <div class="fixedMenu__phone">
-            <a class="" href="tel:+7 937 703-07-68">+7 937 703-07-68</a>
+            <a class="" href="tel:+7 937 703-07-68">+7 937 703-07-86</a>
             {{--                <a class="header__info-phone-mobile" href="tel:+7 937 703-07-68">+7 937 703-07-68</a>--}}
         </div>
         <div class="fixedMenu__logo">

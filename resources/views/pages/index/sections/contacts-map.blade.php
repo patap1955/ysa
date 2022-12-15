@@ -8,7 +8,7 @@
                         <span>Телефон</span>
                     </div>
                     <div class="map__info-grid-right">
-                        <a href="tel:+7 937 703-07-68">+7 937 703-07-68</a>
+                        <a href="tel:+7 937 703-07-68">+7 937 703-07-86</a>
                     </div>
                 </div>
                 <div class="map__info-grid">
