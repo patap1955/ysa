@@ -20,7 +20,7 @@ class PageController extends Controller
         $mail->phone = $request->phone;
         $mail->text = $request->text;
 //        return response()->json($mail);
-        if (Mail::to('slobodchikov1985@yandex.ru')->send(new ContactsForm($mail))) {
+        if (Mail::to('ugstroi34@mail.ru')->send(new ContactsForm($mail))) {
 //            Contact::create($request->all());
 //            return back();
             return response()->json($request);
